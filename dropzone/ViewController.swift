@@ -12,7 +12,6 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +21,14 @@ class ViewController: NSViewController {
         }
     }
 
+    func showPopover (button: NSButton) {
+        let popup = NSPopover()
+        popup.contentViewController = self
+        print(popup.isShown)
+        if popup.isShown == false {
+            popup.show(relativeTo: button.visibleRect, of: button, preferredEdge: .minX)
+        }
+    }
 
 }
 
