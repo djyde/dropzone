@@ -14,6 +14,8 @@
 		57BF1D3422DF705400A8178B /* dropzoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF1D3322DF705400A8178B /* dropzoneTests.swift */; };
 		57FA7BB422DF7CF90015279C /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA7BB322DF7CF90015279C /* TrayViewController.swift */; };
 		57FA7BB622DF879A0015279C /* TrayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57FA7BB522DF879A0015279C /* TrayView.xib */; };
+		57FA7BB822DF92DF0015279C /* DropZoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57FA7BB722DF92DF0015279C /* DropZoneView.xib */; };
+		57FA7BBA22DF92FD0015279C /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA7BB922DF92FD0015279C /* DropZoneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		57BF1D3522DF705400A8178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57FA7BB322DF7CF90015279C /* TrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
 		57FA7BB522DF879A0015279C /* TrayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrayView.xib; sourceTree = "<group>"; };
+		57FA7BB722DF92DF0015279C /* DropZoneView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropZoneView.xib; sourceTree = "<group>"; };
+		57FA7BB922DF92FD0015279C /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				57BF1D2A22DF705400A8178B /* dropzone.entitlements */,
 				57FA7BB322DF7CF90015279C /* TrayViewController.swift */,
 				57FA7BB522DF879A0015279C /* TrayView.xib */,
+				57FA7BB722DF92DF0015279C /* DropZoneView.xib */,
+				57FA7BB922DF92FD0015279C /* DropZoneView.swift */,
 			);
 			path = dropzone;
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FA7BB622DF879A0015279C /* TrayView.xib in Resources */,
+				57FA7BB822DF92DF0015279C /* DropZoneView.xib in Resources */,
 				57BF1D2522DF705400A8178B /* Assets.xcassets in Resources */,
 				57BF1D2822DF705400A8178B /* Main.storyboard in Resources */,
 			);
@@ -203,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BF1D2322DF705300A8178B /* ViewController.swift in Sources */,
+				57FA7BBA22DF92FD0015279C /* DropZoneView.swift in Sources */,
 				57BF1D2122DF705300A8178B /* AppDelegate.swift in Sources */,
 				57FA7BB422DF7CF90015279C /* TrayViewController.swift in Sources */,
 			);

@@ -16,15 +16,16 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EmZ-bk-GLh">
-                    <rect key="frame" x="31" y="212" width="81" height="32"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1ac-Zs-tb1">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                </button>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="M3B-Rx-QL8" customClass="DropZoneView" customModule="dropzone" customModuleProvider="target">
+                    <rect key="frame" x="20" y="20" width="440" height="232"/>
+                </customView>
             </subviews>
+            <constraints>
+                <constraint firstItem="M3B-Rx-QL8" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="0do-fE-gqT"/>
+                <constraint firstItem="M3B-Rx-QL8" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="1gJ-V8-U9Q"/>
+                <constraint firstAttribute="bottom" secondItem="M3B-Rx-QL8" secondAttribute="bottom" constant="20" id="6ex-ga-z1y"/>
+                <constraint firstAttribute="trailing" secondItem="M3B-Rx-QL8" secondAttribute="trailing" constant="20" id="6qH-qw-b4M"/>
+            </constraints>
         </customView>
     </objects>
 </document>

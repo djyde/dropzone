@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-
+    
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
@@ -24,7 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
     
-    @objc func showPopup (button: NSButton) {
+    @objc func showPopover (button: NSButton) {
         popover.contentViewController = popoverViewController
         if popover.isShown {
             popover.close()
@@ -36,10 +36,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func setupTray () {
         if let button = statusItem.button {
             button.title = "Hello"
-            button.action = #selector(showPopup(button:))
+            button.action = #selector(showPopover(button:))
         }
     }
-    
-    
-
 }

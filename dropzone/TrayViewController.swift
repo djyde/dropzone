@@ -12,7 +12,11 @@ class TrayViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
+        
+//        containerView.registerForDraggedTypes([NSPasteboard.PasteboardType.fileURL])
+        
+//        containerView.beginDraggingSession(with: <#T##[NSDraggingItem]#>, event: <#T##NSEvent#>, source: <#T##NSDraggingSource#>)
+        
+        
     }
-    
 }
